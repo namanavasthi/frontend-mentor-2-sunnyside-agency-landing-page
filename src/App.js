@@ -1,7 +1,15 @@
+import { Header } from "./Header";
+import { Nav } from "./Nav";
+import { Main } from "./Main";
+import { Footer } from "./Footer";
+
 function App() {
   return (
-    <div className="App flex justify-center">
-      <h1 className="text-blue-600 text-4xl">Hello to Frontend Mentor Bootstrap</h1>
+    <div className="flex">
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
     </div>
   );
 }
