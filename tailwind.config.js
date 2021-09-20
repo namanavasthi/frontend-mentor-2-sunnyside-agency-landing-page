@@ -22,12 +22,16 @@ module.exports = {
           "dark-grayish-blue": "hsl(232, 10%, 55%)",
           "very-dark-grayish-blue": "hsl(213, 9%, 39%)",
           "very-dark-desaturated-blue": "hsl(212, 27%, 19%)",
+          white: "hsl(0, 0%, 100%)",
+          "icon-focus": "#979797",
         },
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      textTransform: ["hover", "focus"],
+    },
   },
   plugins: [],
 };

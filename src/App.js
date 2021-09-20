@@ -1,13 +1,11 @@
 import { Header } from "./Header";
-import { Nav } from "./Nav";
 import { Main } from "./Main";
 import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex flex-col w-full relative bg-red-400">
       <Header />
-      <Nav />
       <Main />
       <Footer />
     </div>
