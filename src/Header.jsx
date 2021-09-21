@@ -1,13 +1,16 @@
 import React from "react";
 import { Nav } from "./Nav";
+import { Wrapper } from "./Wrapper";
 
 import { ReactComponent as Logo } from "./images/logo.svg";
 
-export const Header = () => {
+export const Header = ({ windowWidth }) => {
   return (
-    <header className="absolute p-6 flex max-w-7xl w-full justify-between mx-auto items-center z-10">
-      <Logo className="text-neutral-white fill-current" alt="logo" />
-      <Nav />
+    <header className="absolute p-6 w-full z-10 bg-primary-light-blue">
+      <Wrapper className="flex justify-between items-center">
+        <Logo className="text-neutral-white fill-current" alt="logo" />
+        <Nav windowWidth={windowWidth} />
+      </Wrapper>
     </header>
   );
 };

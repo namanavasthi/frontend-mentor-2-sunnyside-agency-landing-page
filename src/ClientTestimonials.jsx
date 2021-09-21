@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Wrapper } from "./Wrapper";
+
 import Emily from "./images/image-emily.jpg";
 import Jennie from "./images/image-jennie.jpg";
 import Thomas from "./images/image-thomas.jpg";
@@ -57,15 +59,17 @@ const Client = ({ data }) => {
 
 export const ClientTestimonials = () => {
   return (
-    <section className="section-testimonials flex flex-col py-10 items-center text-center">
-      <h2 className="text-base tracking-widest uppercase text-neutral-grayish-blue pb-5">{data.title}</h2>
-      <ul>
-        {data.clients.map((client, i) => (
-          <li key={i} className="flex flex-col items-center px-5 py-6">
-            <Client data={client} />
-          </li>
-        ))}
-      </ul>
+    <section className="section-testimonials py-10 text-center lg:py-20">
+      <Wrapper className="flex flex-col items-center">
+        <h2 className="text-base tracking-widest uppercase text-neutral-grayish-blue pb-5">{data.title}</h2>
+        <ul className="flex flex-col lg:flex-row">
+          {data.clients.map((client, i) => (
+            <li key={i} className="flex flex-col items-center px-5 py-6">
+              <Client data={client} />
+            </li>
+          ))}
+        </ul>
+      </Wrapper>
     </section>
   );
 };

@@ -8,30 +8,37 @@ import { Link } from "./Link";
 import { ImageSection } from "./ImageSection";
 import { ClientTestimonials } from "./ClientTestimonials";
 import { Gallery } from "./Gallery";
+import { Wrapper } from "./Wrapper";
+import { HeroComponent } from "./Hero";
 
 import Hero from "./images/mobile/image-header.jpg";
-import ArrowDown from "./images/icon-arrow-down.svg";
+import HeroDesktop from "./images/desktop/image-header.jpg";
 
 import Egg from "./images/mobile/image-transform.jpg";
-import Glass from "./images/mobile/image-stand-out.jpg";
-import GraphicDesign from "./images/mobile/image-graphic-design.jpg";
-import Photography from "./images/mobile/image-photography.jpg";
+import EggDesktop from "./images/desktop/image-transform.jpg";
 
-export const Main = () => {
+import Glass from "./images/mobile/image-stand-out.jpg";
+import GlassDesktop from "./images/desktop/image-stand-out.jpg";
+
+import GraphicDesign from "./images/mobile/image-graphic-design.jpg";
+import GraphicDesignDesktop from "./images/desktop/image-graphic-design.jpg";
+
+import Photography from "./images/mobile/image-photography.jpg";
+import PhotographyDesktop from "./images/desktop/image-photography.jpg";
+
+export const Main = ({ windowWidth }) => {
+  const isDesktop = windowWidth >= 1024;
+
+  const HeroUrl = isDesktop ? HeroDesktop : Hero;
+  const EggUrl = isDesktop ? EggDesktop : Egg;
+  const GlassUrl = isDesktop ? GlassDesktop : Glass;
+  const GraphicDesignUrl = isDesktop ? GraphicDesignDesktop : GraphicDesign;
+  const PhotographyUrl = isDesktop ? PhotographyDesktop : Photography;
+
   return (
-    <main>
-      <section className="hero-section relative">
-        <img src={Hero} alt="hero" />
-        <h1 className="text-center tracking-widest leading-10 w-4/6 uppercase text-4xl text-neutral-white absolute transform -translate-y-2/4 -translate-x-2/4 z-10 left-2/4 top-1/3">
-          we are creatives
-        </h1>
-        <img
-          src={ArrowDown}
-          alt="arrow down"
-          className="absolute transform -translate-y-2/4 -translate-x-2/4 z-10 left-2/4 top-2/3"
-        />
-      </section>
-      <Section>
+    <main className="w-full">
+      <HeroComponent HeroUrl={HeroUrl} />
+      <Section index="1">
         <Article>
           <Title>Transform your brand</Title>
           <SubTitle>
@@ -42,9 +49,9 @@ export const Main = () => {
             learn more
           </Link>
         </Article>
-        <img src={Egg} alt="transform your brand" />
+        <img src={EggUrl} alt="transform your brand" className="w-full lg:w-1/2" />
       </Section>
-      <Section>
+      <Section index="2">
         <Article>
           <Title>Stand out to the right audience</Title>
           <SubTitle>
@@ -55,18 +62,20 @@ export const Main = () => {
             learn more
           </Link>
         </Article>
-        <img src={Glass} alt="transform your brand" />
+        <img src={GlassUrl} alt="transform your brand" className="w-full lg:w-1/2" />
       </Section>
-      <ImageSection
-        image={{ mobile: GraphicDesign, alt: "graphic design" }}
-        title="graphic design"
-        subTitle="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
-      />
-      <ImageSection
-        image={{ mobile: Photography, alt: "photography" }}
-        title="photography"
-        subTitle="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
-      />
+      <Wrapper className="flex flex-col md:flex-row">
+        <ImageSection
+          image={{ src: GraphicDesignUrl, alt: "graphic design" }}
+          title="graphic design"
+          subTitle="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
+        />
+        <ImageSection
+          image={{ src: PhotographyUrl, alt: "photography" }}
+          title="photography"
+          subTitle="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+        />
+      </Wrapper>
       <ClientTestimonials />
       <Gallery />
     </main>
