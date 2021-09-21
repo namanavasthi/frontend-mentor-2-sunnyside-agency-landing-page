@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div className="flex flex-col w-full relative bg-red-400">
+    <div className="flex flex-col w-full relative">
       <Header />
       <Main />
       <Footer />
