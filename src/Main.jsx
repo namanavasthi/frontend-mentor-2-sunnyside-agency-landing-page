@@ -77,7 +77,7 @@ export const Main = ({ windowWidth }) => {
         />
       </Wrapper>
       <ClientTestimonials />
-      <Gallery />
+      <Gallery isDesktop={isDesktop} />
     </main>
   );
 };
