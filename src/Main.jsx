@@ -7,6 +7,7 @@ import { SubTitle } from "./SubTitle";
 import { Link } from "./Link";
 import { ImageSection } from "./ImageSection";
 import { ClientTestimonials } from "./ClientTestimonials";
+import { Gallery } from "./Gallery";
 
 import Hero from "./images/mobile/image-header.jpg";
 import ArrowDown from "./images/icon-arrow-down.svg";
@@ -67,6 +68,7 @@ export const Main = () => {
         subTitle="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
       />
       <ClientTestimonials />
+      <Gallery />
     </main>
   );
 };
