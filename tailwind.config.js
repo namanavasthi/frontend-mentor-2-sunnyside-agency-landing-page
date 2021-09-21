@@ -24,6 +24,7 @@ module.exports = {
           "very-dark-desaturated-blue": "hsl(212, 27%, 19%)",
           white: "hsl(0, 0%, 100%)",
           "icon-focus": "#979797",
+          background: "hsl(34,100%,99%)",
         },
       },
     },
