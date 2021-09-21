@@ -15,6 +15,7 @@ As my [bootstrap repo](https://github.com/namanavasthi/frontend-mentor-bootstrap
   > NOTE : look! this isnt TS, i want to get done with these REAL quick, don't have the time to satisfy tailwind's absurd ts needs
 - fonts are a pain in the but, and I don't really like the fact I'm loading in 3 font weight variants, so instead I'm gonna load only one font (thin) and apply bold style to it, yes it won't show up, but hey, care was taken (at least some)
 - semantic html isn't my forte, please ignore mistakes there
+- 🐼 if i get time (or motivation), i'd make them images load dynamically
 
 ## Structure
 
