@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-2-sunnyside-agency-landing-page/static/css/main.7bad4c5c.chunk.css",
-    "main.js": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/main.f24787c2.chunk.js",
-    "main.js.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/main.f24787c2.chunk.js.map",
+    "main.css": "/frontend-mentor-2-sunnyside-agency-landing-page/static/css/main.22a1f5e9.chunk.css",
+    "main.js": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/main.c400d2f0.chunk.js",
+    "main.js.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/main.c400d2f0.chunk.js.map",
     "runtime-main.js": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/runtime-main.82817b5b.js",
     "runtime-main.js.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/runtime-main.82817b5b.js.map",
     "static/js/2.fd588546.chunk.js": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/2.fd588546.chunk.js",
     "static/js/2.fd588546.chunk.js.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/2.fd588546.chunk.js.map",
     "index.html": "/frontend-mentor-2-sunnyside-agency-landing-page/index.html",
-    "static/css/main.7bad4c5c.chunk.css.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/css/main.7bad4c5c.chunk.css.map",
+    "static/css/main.22a1f5e9.chunk.css.map": "/frontend-mentor-2-sunnyside-agency-landing-page/static/css/main.22a1f5e9.chunk.css.map",
     "static/js/2.fd588546.chunk.js.LICENSE.txt": "/frontend-mentor-2-sunnyside-agency-landing-page/static/js/2.fd588546.chunk.js.LICENSE.txt",
     "static/media/icon-arrow-down.979ef07a.svg": "/frontend-mentor-2-sunnyside-agency-landing-page/static/media/icon-arrow-down.979ef07a.svg",
     "static/media/image-gallery-cone.461ff421.jpg": "/frontend-mentor-2-sunnyside-agency-landing-page/static/media/image-gallery-cone.461ff421.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.82817b5b.js",
     "static/js/2.fd588546.chunk.js",
-    "static/css/main.7bad4c5c.chunk.css",
-    "static/js/main.f24787c2.chunk.js"
+    "static/css/main.22a1f5e9.chunk.css",
+    "static/js/main.c400d2f0.chunk.js"
   ]
 }
