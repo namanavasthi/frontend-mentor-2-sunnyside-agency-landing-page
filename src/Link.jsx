@@ -13,6 +13,7 @@ export const Link = ({ children, to, highlight }) => {
         onMouseLeave={() => setHover(false)}
         className="relative uppercase text-sm leading-6 text-neutral-very-dark-desaturated-blue text-center mt-5 tracking-widest"
         href={to}
+        aria-label={children}
       >
         <span className="z-10 relative">{children}</span>
         <span

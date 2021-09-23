@@ -48,7 +48,7 @@ export const Footer = () => {
   return (
     <footer className="bg-primary-cyan-moderate py-20 px-5 w-full">
       <Wrapper className="flex flex-col items-center">
-        <Logo className="text-primary-cyan-dark fill-current" alt="logo" />
+        <Logo className="text-primary-cyan-dark fill-current" />
         <ul className="flex flex-row justify-around lg:w-1/4 w-full text-md tracking-tighter leading-6 text-primary-cyan-less-dark font-barlow py-10">
           <ListLink to="/about">About</ListLink>
           <ListLink to="/services">Services</ListLink>

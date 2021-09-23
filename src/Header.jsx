@@ -8,7 +8,7 @@ export const Header = ({ windowWidth }) => {
   return (
     <header className="absolute p-6 w-full z-10 bg-primary-light-blue">
       <Wrapper className="flex justify-between items-center">
-        <Logo className="text-neutral-white fill-current" alt="logo" />
+        <Logo className="text-neutral-white fill-current" />
         <Nav windowWidth={windowWidth} />
       </Wrapper>
     </header>
