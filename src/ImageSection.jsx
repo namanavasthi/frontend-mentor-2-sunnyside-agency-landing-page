@@ -11,7 +11,7 @@ export const ImageSection = ({ image, title, subTitle }) => {
           <h2 className="capitalize text-3xl tracking-tight leading-9 text-center text-primary-cyan-desaturated">
             {title}
           </h2>
-          <p className="text-base font-barlow tracking-tighter leading-7 text-center text-primary-cyan-desaturated py-7">
+          <p className="text-base font-barlow tracking-tighter leading-7 text-center text-primary-cyan-desaturated py-7 lg:px-36">
             {subTitle}
           </p>
         </div>

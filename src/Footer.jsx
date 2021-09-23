@@ -55,6 +55,21 @@ export const Footer = () => {
           <ListLink to="/projects">Projects</ListLink>
         </ul>
         <Socials />
+        <div class="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://github.com/namanavasthi/frontend-mentor-2-sunnyside-agency-landing-page/blob/main/package.json">
+            Naman Avasthi
+          </a>
+          .
+        </div>
       </Wrapper>
     </footer>
   );
