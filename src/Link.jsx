@@ -5,13 +5,13 @@ export const Link = ({ children, to, highlight }) => {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center lg:justify-start">
       <a
         onFocus={() => setFocus(true)}
         onBlur={() => setFocus(false)}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        className="relative uppercase text-sm leading-6 text-neutral-very-dark-desaturated-blue text-center mt-5 tracking-widest"
+        className="relative uppercase text-sm leading-6 text-neutral-very-dark-desaturated-blue text-center lg:text-left mt-5 tracking-widest"
         href={to}
         aria-label={children}
       >

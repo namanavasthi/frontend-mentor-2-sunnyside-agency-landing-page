@@ -46,10 +46,10 @@ const Client = ({ data }) => {
   return (
     <>
       <img src={data.image.src} alt={data.image.alt} className="w-16 rounded-full" />
-      <p className="font-barlow text-lg tracking-tight leading-8 text-neutral-very-dark-grayish-blue py-7 px-3">
+      <p className="font-barlow text-lg tracking-tight leading-8 text-neutral-very-dark-grayish-blue py-7 px-3 lg:px-8">
         {data.message}
       </p>
-      <div>
+      <div className="lg:pt-8">
         <h3 className="text-lg tracking-tight leading-6 text-neutral-very-dark-desaturated-blue">{data.name}</h3>
         <h4 className="font-barlow text-sm leading-6 tracking-tighter text-neutral-grayish-blue pt-1">{data.title}</h4>
       </div>
@@ -59,7 +59,7 @@ const Client = ({ data }) => {
 
 export const ClientTestimonials = () => {
   return (
-    <section className="section-testimonials py-10 text-center lg:py-20">
+    <section className="section-testimonials py-10 text-center lg:pt-40 lg:pb-36">
       <Wrapper className="flex flex-col items-center">
         <h2 className="text-base tracking-widest uppercase text-neutral-grayish-blue pb-5">{data.title}</h2>
         <ul className="flex flex-col lg:flex-row">

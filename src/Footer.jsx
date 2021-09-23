@@ -19,7 +19,7 @@ const ListLink = ({ to, children }) => {
 
 const Socials = () => {
   return (
-    <ul className="flex flex-row justify-center text-primary-cyan-dark">
+    <ul className="flex flex-row justify-center text-primary-cyan-dark lg:pt-8">
       <li className="p-4">
         <a className="focus:text-neutral-white hover:text-neutral-white" href="/facebook">
           <FontAwesomeIcon icon={faFacebook} />

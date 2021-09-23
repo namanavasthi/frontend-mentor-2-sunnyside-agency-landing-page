@@ -36,7 +36,7 @@ export const Main = ({ windowWidth }) => {
   const PhotographyUrl = isDesktop ? PhotographyDesktop : Photography;
 
   return (
-    <main className="w-full">
+    <main className="w-full pt-12">
       <HeroComponent HeroUrl={HeroUrl} />
       <Section index="1">
         <Article>
