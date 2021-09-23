@@ -16,6 +16,7 @@ As my [bootstrap repo](https://github.com/namanavasthi/frontend-mentor-bootstrap
 - fonts are a pain in the but, and I don't really like the fact I'm loading in 3 font weight variants, so instead I'm gonna load only one font (thin) and apply bold style to it, yes it won't show up, but hey, care was taken (at least some)
 - semantic html isn't my forte, please ignore mistakes there
 - tailwind is annoying with focus + responsive border styles, tried to add those in navbar styles, but was taking too long. skipping it for now.
+- didn't pay much attention to pixel perfect desktop, got busy at work :/
 - 🐼 if i get time (or motivation), i'd make them images load dynamically
 
 ## Structure
