@@ -1,5 +1,14 @@
 # Frontend Mentor: #2 Sunnyside Agency Landing Page
 
+```
+Name : Sunnyside agency landing page
+Description : This challenge will be a perfect test of your layout and responsive skills.
+              There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.
+Difficulty : 2-JUNIOR
+Status: Complete
+Challenge : https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef
+```
+
 okay, so frontend mentor wants me to post a readme in a particular format, being the rebel I am, I'd gladly not comply to that request.
 I really want to only focus on coding these things out as fast as I humanly can and not deal into documentation related specifics.
 
